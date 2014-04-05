@@ -1,0 +1,143 @@
+body {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+
+#header {
+	margin-top: 30px;
+	text-align: left;
+}
+#title {
+	font-size: 80px;
+	font-weight: bold;
+}
+#subtitle {
+	font-size: 16px;
+	text-align: left;
+}
+#restart{
+	float:right;
+	margin-right: 5px;
+	margin-top: 100px;
+}
+
+#msg{
+	display: none;
+}
+
+.cell {
+    background-color: #C3D7EB;
+    border: 1px solid #666;
+    border-radius: 3px;
+    float: left;
+    height: 40px;
+    line-height: 35px;
+    margin: 2px;
+    text-align: center;
+    width: 40px;
+	box-shadow: inset 0px 0px 1px #555;
+}
+
+.myrow {
+    display: block;
+    height: 44px;
+    position: relative;
+    width: 440px;
+}
+
+.board {
+	position: absolute;
+	top:0;
+	z-index:1;
+	padding: 3px;
+	background-color: #BBB;
+	width: 446px;
+	border-radius: 5px;
+	margin-top: 0px;
+}
+
+#pbar {
+	margin-top: 10px;
+}
+
+.clickable {
+	background-color: #428BCA;
+	cursor: pointer;
+}
+.clicked {
+	background-color: #5CB85C;
+}
+
+#container {
+	width: 448px;
+    margin: 0 auto;
+	text-align: center;
+}
+
+#game-container{
+	position: relative;
+	height: 450px;
+}
+
+.game-message{
+	position: absolute;
+	z-index:100;
+	display:none;
+	padding: 3px;
+	/*background-color: rgba(195,215,235,0.75);*/
+	width: 446px;
+	height: 446px;
+	border-radius: 5px;
+	top: 0;
+	text-align: center;
+}
+
+.win{
+	background-color: rgba(200,255,200,0.8);
+}
+.over{
+	background-color: rgba(255,200,200,0.8);
+}
+
+.msg-cont{
+	position: absolute;
+	top: 130;
+ 	text-align: center;
+	width: 100%;
+	font-weight: bold;
+}
+
+.msg-title {
+	font-size: 60px;
+}
+.msg-body {
+	font-size: 16px;
+	font-weight: normal;
+}
+.msg-actions{
+	margin-top: 30px;   
+	height: 30px;
+}
+
+.twitter-share-button.msg{    
+    position: absolute;
+    right: 100px;
+	bottom: 8;
+}
+#tryagain{
+    position: absolute;
+    left: 130px;
+	bottom: 0;
+}
+#info{
+	margin-top: 10px;
+	text-align: left;
+	font-size: 16px;
+	font-weight: normal;
+}
+.link{
+	font-weight: bold;
+}
+.shareLinks{
+	text-align: center;
+}

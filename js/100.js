@@ -10,9 +10,12 @@ $( document ).ready(function() {
 });
 
 function click(){
+		$('.last').removeClass('last');
+
 		$(this).removeClass("clickable");
 		$(this).off('click');
 		$(this).addClass("clicked");	
+		$(this).addClass("last");
 			
 		$('.clickable').each( function(){
 			$(this).removeClass("clickable");
@@ -46,6 +49,7 @@ function click(){
 			con = true;
 		});
 		if(!con){
+			$('#count').html(count-1);
 			$('#game-over').show();
 		}
 }

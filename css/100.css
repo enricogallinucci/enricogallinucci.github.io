@@ -64,8 +64,14 @@ body {
 	background-color: #428BCA;
 	cursor: pointer;
 }
+.clickable:hover{
+	background-color: #529BDA;
+}
 .clicked {
 	background-color: #5CB85C;
+}
+.clicked.last {
+	background-color: #8CE88C;
 }
 
 #container {
@@ -101,7 +107,7 @@ body {
 
 .msg-cont{
 	position: absolute;
-	top: 130;
+	top: 110;
  	text-align: center;
 	width: 100%;
 	font-weight: bold;

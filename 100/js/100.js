@@ -29,7 +29,7 @@ function click(){
 			$('#game-win').show();
 			return;
 		}
-		
+		$('#game-win').show();
 		var x = +$(this).attr('id').substr(0,1);
 		var y = +$(this).attr('id').substr(1,1);
 		
